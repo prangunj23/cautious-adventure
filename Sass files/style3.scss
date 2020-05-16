@@ -1,0 +1,15 @@
+%styling {
+	color: red;
+	font-family: Arial;
+}
+
+
+.info {
+	@extend %styling;
+	border-color: green;
+}
+
+.fault {
+	@extend %styling; 
+	border-color: black;
+}
